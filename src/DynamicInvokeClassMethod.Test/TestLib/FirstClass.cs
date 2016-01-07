@@ -2,9 +2,14 @@
 {
     public class FirstClass
     {
-        public string Apply()
+        // ReSharper disable once EmptyConstructor
+        //public FirstClass()
+        //{
+        //}
+
+        public string Apply(string para)
         {
-            return "first ....";
+            return "first ...." + para;
         }
     }
 }

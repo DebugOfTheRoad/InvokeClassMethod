@@ -1,6 +1,5 @@
 ﻿using DynamicInvokeMethod;
 using System;
-using TestLib;
 
 namespace DynamicInvokeClassMethod.Test
 {

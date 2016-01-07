@@ -59,19 +59,27 @@ namespace DynamicInvokeMethod
         /// <param name="methodName">方法名称</param>
         /// <returns>System.String.</returns>
         public static string InvokeMethod(string assemblyName, string namespaceName, string typeName, string methodName)
+
         {
             Type calledType = Type.GetType(namespaceName + "." + typeName + "," + assemblyName);
-            var obj = Activator.CreateInstance(calledType);
+            //var obj = Activator.CreateInstance(calledType, "para");
             //BindingFlags.InvokeMethod | BindingFlags.Public /*| BindingFlags.Static*/|
+
             if (calledType != null)
             {
-                var result = (string)calledType.InvokeMember(methodName,
-                    BindingFlags.Default | BindingFlags.InvokeMethod,
-                    null,
-                    obj,
-                    null)
-                    ;
-                return result;
+                //object obj = calledType.InvokeMember(methodName,
+                //    BindingFlags.Public |
+                //    BindingFlags.Instance | BindingFlags.CreateInstance, null, null, new object[] { "参数" });
+
+                //var result = (string)calledType.InvokeMember(methodName,
+                //    BindingFlags.DeclaredOnly |
+                //    BindingFlags.Public | BindingFlags.NonPublic |
+                //    BindingFlags.Instance | BindingFlags.SetProperty, null, obj, new object[] { "传递参数" });
+                //return result;
+                object instance = Activator.CreateInstance(calledType);
+                MethodInfo invoke = calledType.GetMethod("Apply");
+                var result = invoke.Invoke(instance, new object[] { "参数" });
+                return (string)result;
             }
             return string.Empty;
         }

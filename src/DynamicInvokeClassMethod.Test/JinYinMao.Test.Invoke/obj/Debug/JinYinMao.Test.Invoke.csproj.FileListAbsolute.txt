@@ -1,0 +1,5 @@
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\JinYinMao.Test.Invoke\bin\Debug\JinYinMao.Test.Invoke.dll
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\JinYinMao.Test.Invoke\bin\Debug\JinYinMao.Test.Invoke.pdb
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\JinYinMao.Test.Invoke\obj\Debug\JinYinMao.Test.Invoke.dll
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\JinYinMao.Test.Invoke\obj\Debug\JinYinMao.Test.Invoke.pdb
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\JinYinMao.Test.Invoke\obj\Debug\JinYinMao.Test.Invoke.csprojResolveAssemblyReference.cache

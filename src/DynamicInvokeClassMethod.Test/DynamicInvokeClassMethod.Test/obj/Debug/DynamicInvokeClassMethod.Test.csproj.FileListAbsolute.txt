@@ -1,0 +1,12 @@
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeClassMethod.Test\bin\Debug\DynamicInvokeClassMethod.Test.exe.config
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeClassMethod.Test\bin\Debug\DynamicInvokeClassMethod.Test.exe
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeClassMethod.Test\bin\Debug\DynamicInvokeClassMethod.Test.pdb
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeClassMethod.Test\bin\Debug\DynamicInvokeMethod.dll
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeClassMethod.Test\bin\Debug\TestLib.dll
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeClassMethod.Test\bin\Debug\DynamicInvokeMethod.pdb
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeClassMethod.Test\bin\Debug\TestLib.pdb
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeClassMethod.Test\obj\Debug\DynamicInvokeClassMethod.Test.csprojResolveAssemblyReference.cache
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeClassMethod.Test\obj\Debug\DynamicInvokeClassMethod.Test.exe
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeClassMethod.Test\obj\Debug\DynamicInvokeClassMethod.Test.pdb
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeClassMethod.Test\bin\Debug\JinYinMao.Test.Invoke.dll
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeClassMethod.Test\bin\Debug\JinYinMao.Test.Invoke.pdb

@@ -1,0 +1,5 @@
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\TestLib\bin\Debug\TestLib.dll
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\TestLib\bin\Debug\TestLib.pdb
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\TestLib\obj\Debug\TestLib.csprojResolveAssemblyReference.cache
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\TestLib\obj\Debug\TestLib.dll
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\TestLib\obj\Debug\TestLib.pdb

@@ -61,13 +61,16 @@ namespace DynamicInvokeMethod
         public static string InvokeMethod(string assemblyName, string namespaceName, string typeName, string methodName)
         {
             Type calledType = Type.GetType(namespaceName + "." + typeName + "," + assemblyName);
+            var obj = Activator.CreateInstance(calledType);
+            //BindingFlags.InvokeMethod | BindingFlags.Public /*| BindingFlags.Static*/|
             if (calledType != null)
             {
-                string result = (string)calledType.InvokeMember(methodName,
-                    BindingFlags.InvokeMethod | BindingFlags.Public | BindingFlags.Static,
+                var result = (string)calledType.InvokeMember(methodName,
+                    BindingFlags.Default | BindingFlags.InvokeMethod,
                     null,
-                    null,
-                    null);
+                    obj,
+                    null)
+                    ;
                 return result;
             }
             return string.Empty;

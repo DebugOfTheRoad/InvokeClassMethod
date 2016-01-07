@@ -2,7 +2,7 @@
 {
     public class FirstClass
     {
-        public static string Apply()
+        public string Apply()
         {
             return "first ....";
         }

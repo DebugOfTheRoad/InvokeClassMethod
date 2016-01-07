@@ -2,3 +2,4 @@ H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeMethod\
 H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeMethod\bin\Debug\DynamicInvokeMethod.pdb
 H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeMethod\obj\Debug\DynamicInvokeMethod.dll
 H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeMethod\obj\Debug\DynamicInvokeMethod.pdb
+H:\Work\InvokeClassMethod\src\DynamicInvokeClassMethod.Test\DynamicInvokeMethod\obj\Debug\DynamicInvokeMethod.csprojResolveAssemblyReference.cache

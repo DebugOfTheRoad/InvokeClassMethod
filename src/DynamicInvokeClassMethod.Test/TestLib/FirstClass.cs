@@ -1,15 +1,26 @@
 ﻿namespace TestLib
 {
-    public class FirstClass
+    public static class FirstClass
     {
         // ReSharper disable once EmptyConstructor
         //public FirstClass()
         //{
         //}
 
-        public string Apply(string para)
+        static FirstClass()
         {
-            return "first ...." + para;
+        }
+
+        private static string Data { get; set; }
+
+        public static string Apply(string para)
+        {
+            return "first ...." + Data + "|" + para;
+        }
+
+        public static void SetValue(string data)
+        {
+            Data = data;
         }
     }
 }

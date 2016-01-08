@@ -71,15 +71,15 @@ namespace DynamicInvokeMethod
                 //    BindingFlags.Public |
                 //    BindingFlags.Instance | BindingFlags.CreateInstance, null, null, new object[] { "参数" });
 
-                //var result = (string)calledType.InvokeMember(methodName,
-                //    BindingFlags.DeclaredOnly |
-                //    BindingFlags.Public | BindingFlags.NonPublic |
-                //    BindingFlags.Instance | BindingFlags.SetProperty, null, obj, new object[] { "传递参数" });
-                //return result;
-                object instance = Activator.CreateInstance(calledType);
-                MethodInfo invoke = calledType.GetMethod("Apply");
-                var result = invoke.Invoke(instance, new object[] { "参数" });
-                return (string)result;
+                var result = (string)calledType.InvokeMember(methodName,
+                    BindingFlags.InvokeMethod |
+                    BindingFlags.Public | BindingFlags.NonPublic |
+                    BindingFlags.Static, null, null, new object[] { "传递参数" });
+                return result;
+                //object instance = Activator.CreateInstance(calledType);
+                //MethodInfo invoke = calledType.GetMethod("Apply");
+                //var result = invoke.Invoke(instance, new object[] { "参数" });
+                //return (string)result;
             }
             return string.Empty;
         }
